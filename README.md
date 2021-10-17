@@ -3,7 +3,7 @@
 ## 実行方法
 
 ```
-python wordcloud.py
+python wordcloud_run.py
 ```
 
 ## 実行結果
