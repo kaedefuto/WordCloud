@@ -101,6 +101,17 @@ def main(input_file):
 
     """WORD CLOUD"""
     #WordCloudのパラメータ
+    """
+    デフォルトパラメータ
+    width:400
+    height:200
+    backgraound_color:black
+    colormap(文字色):None
+    collocations(連語):True
+    stopwords:None
+    max_words:200
+    regexp(表示される文字の正規表現):r"\w[\w']+"
+    """
     FONT_FILE = "/System/Library/Fonts/ヒラギノ明朝 ProN.ttc"  # フォントファイルのパス
     COLOR = "white"
     WIDTH = 1000  # 出力画像の幅
